@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text1_rwall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="@string/rwall_desc"
+                android:textSize="20dp"
+                android:layout_marginTop="16sp"
+                android:layout_marginRight="8sp"
+                android:layout_marginLeft="8sp"/>
+
+            <TextView
+                android:id="@+id/text2_rwall"
+                android:text="Event Heads"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="16sp"
+                android:textSize="24sp"
+                android:paddingTop="8sp"
+                android:paddingBottom="8sp"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text3_rwall"
+                    android:text="Ankita Kademwar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text4_rwall"
+                    android:text="+917710895118"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:autoLink="phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text5_rwall"
+                    android:text="Priya Birge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text6_rwall"
+                    android:text="+917709097440"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:autoLink="phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8sp">
+
+                <TextView
+                    android:id="@+id/text7_rwall"
+                    android:text="Yogesh Pantoji"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.48"
+                    android:textColor="@color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/text8_rwall"
+                    android:text="+918793152342"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:autoLink="phone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/show_images"
+                android:text="Show images->"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,572 @@
+<resources>
+    <string name="home_title">Rangawardhan...The marathi soul of VJTI !</string>
+    <string name="home_title2">रंगवर्धन … व्हीजेटीआयचं मराठी मन !</string>
+
+    <string-array name="event_names_array">
+        <item name="event_kawadasa">Kawadasa</item>
+        <item name="event_nrutyaavishkar">Nrutyavishkar</item>
+        <item name="event_gaanetarane">GaneTarane</item>
+        <item name="event_pathnatya">Pathnatya</item>
+        <item name="event_vaadvivad">Vaad-Vivad</item>
+        <item name="event_vaadyavadan">Ekpatri</item>
+        <item name="event_ekpatri">Kavyamrut</item>
+        <item name="event_kavyamrut">Fun Events</item>
+        <item name="event_rwall">Rwall</item>
+    </string-array>
+
+    <string name="app_name">Rangawardhan</string>
+    <string name="kavadasa">Event</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="event_name">EventName</string>
+    <string name="event_image">EventImage</string>
+    <string name="position">Position</string>
+
+    <array name="event_image_array">
+        <item>@drawable/kawadasa</item>
+        <item>@drawable/nrutya</item>
+        <item>@drawable/gane</item>
+        <item>@drawable/pathnatya</item>
+        <item>@drawable/vadvivad</item>
+        <item>@drawable/ekpatri</item>
+        <item>@drawable/kavya</item>
+        <item>@drawable/vadyavadan</item>
+
+    </array>
+
+
+    <string name="introduction_tab">Introduction</string>
+    <string name="rules_tab">Rules</string>
+    <string name="eventhead_tab">Event Head</string>
+    <string name="registration_tab">Register</string>
+
+
+    <string name="rules_kawadsa1">Time limit for the performance will be 1 hour including set and prop setup\n</string>
+    <string name="rules_kawadsa2">Reporting time will be 1 hour prior to the allotted time to respective Event Head\n</string>
+    <string name="rules_kawadsa3">Every college will be given by unique code\n</string>
+    <string name="rules_kawadsa4">There will be 2 rounds:- 1) Primary round
+                             2) Final round\n</string>
+    <string name="rules_kawadsa5">Every college must submit the SCRIPT, CAST LIST, ENTRY FEE 1 week before the primary round\n</string>
+    <string name="rules_kawadsa6">Decision of judges will be final and binding\n</string>
+    <string name="rules_kawadsa7">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_kawadsa8">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+    <string-array name="rules_kawadsa_array">
+        <item>@string/rules_kawadsa1</item>
+        <item>@string/rules_kawadsa2</item>
+        <item>@string/rules_kawadsa3</item>
+        <item>@string/rules_kawadsa4</item>
+        <item>@string/rules_kawadsa5</item>
+        <item>@string/rules_kawadsa6</item>
+        <item>@string/rules_kawadsa7</item>
+        <item>@string/rules_kawadsa8</item>
+    </string-array>
+
+
+    <string name="rules_pathnatya1">Performance duration will be ½ hour\n</string>
+    <string name="rules_pathnatya2">Decision of judges will be final and binding\n</string>
+    <string name="rules_pathnatya3">Reporting time is ½ hour prior to the allotted time to respective Event Head\n</string>
+    <string name="rules_pathnatya4">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_pathnatya5">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+    <string-array name="rules_pathnatya_array">
+        <item>@string/rules_pathnatya1</item>
+        <item>@string/rules_pathnatya2</item>
+        <item>@string/rules_pathnatya3</item>
+        <item>@string/rules_pathnatya4</item>
+        <item>@string/rules_pathnatya5</item>
+    </string-array>
+
+
+    <string name="rules_gaane_taraane1">Report before the allotted time\n</string>
+    <string name="rules_gaane_taraane2">Decision of judges will be final and binding\n</string>
+    <string name="rules_gaane_taraane3">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_gaane_taraane4">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+
+    <string-array name="rules_gaane_taraane_array">
+        <item>@string/rules_gaane_taraane1</item>
+        <item>@string/rules_gaane_taraane2</item>
+        <item>@string/rules_gaane_taraane3</item>
+        <item>@string/rules_gaane_taraane4</item>
+    </string-array>
+
+
+
+    <string name="rules_nrutyaavishkar1">Reporting time is 1 hour prior to the allotted time to respective Event Head\n</string>
+    <string name="rules_nrutyaavishkar2">Participant should give their music CDs to the event heads 1-2 days prior to the performance\n</string>
+    <string name="rules_nrutyaavishkar3">Decision of judges will be final and binding\n</string>
+    <string name="rules_nrutyaavishkar4">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_nrutyaavishkar5">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+    <string-array name="rules_nrutya_array">
+        <item>@string/rules_nrutyaavishkar1</item>
+        <item>@string/rules_nrutyaavishkar2</item>
+        <item>@string/rules_nrutyaavishkar3</item>
+        <item>@string/rules_nrutyaavishkar4</item>
+        <item>@string/rules_nrutyaavishkar5</item>
+    </string-array>
+
+
+
+
+    <string name="rules_kavyamrut1">Reporting time is ½ hour prior to the allotted time to respective Event Head\n</string>
+    <string name="rules_kavyamrut2">Submit your ‘Kavitaas’ on below e-mail Id:\nrangawardhanfest@gmail.com\n</string>
+    <string name="rules_kavyamrut3">For more information kindly contact the Event Heads.\n</string>
+    <string name="rules_kavyamrut4">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+
+    <string-array name="rules_kavyamrut_array">
+        <item>@string/rules_kavyamrut1</item>
+        <item>@string/rules_kavyamrut2</item>
+        <item>@string/rules_kavyamrut3</item>
+        <item>@string/rules_kavyamrut4</item>
+    </string-array>
+
+
+
+
+    <string name="rules_vaadvivad1">Each team will have 2 members\n</string>
+    <string name="rules_vaadvivad2">Subject will be given on the time\n</string>
+    <string name="rules_vaadvivad3">Depending number of entries to the event rounds will be decided\n</string>
+    <string name="rules_vaadvivad4">Each team will be given 3 Minutes to express\n</string>
+    <string name="rules_vaadvivad5">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_vaadvivad6">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+
+    <string-array name="rules_vaadvivad_array">
+        <item>@string/rules_vaadvivad1</item>
+        <item>@string/rules_vaadvivad2</item>
+        <item>@string/rules_vaadvivad3</item>
+        <item>@string/rules_vaadvivad4</item>
+        <item>@string/rules_vaadvivad5</item>
+        <item>@string/rules_vaadvivad6</item>
+    </string-array>
+
+
+    <string name="rules_ekpatri1">Reporting time is 1 hour prior to the allotted time to respective Event Head\n</string>
+    <string name="rules_ekpatri2">Every participant will be given 7 minutes after which a bell will ring\n</string>
+    <string name="rules_ekpatri3">Decision of judges will be final and binding\n</string>
+    <string name="rules_ekpatri4">For more information kindly contact the Event Heads\n</string>
+    <string name="rules_ekpatri5">Any changes in the above mentioned rules are governed by Rangawardhan Authorities\n</string>
+
+
+    <string-array name="rules_ekpatri_array">
+        <item>@string/rules_ekpatri1</item>
+        <item>@string/rules_ekpatri2</item>
+        <item>@string/rules_ekpatri3</item>
+        <item>@string/rules_ekpatri4</item>
+        <item>@string/rules_ekpatri5</item>
+    </string-array>
+
+    <string name="rules_vaadyavadan1">You can enjoy fun events from 9:00 am to 5:00 pm during the fest </string>
+    <string-array name="rules_vaadyavadan_array">
+        <item>@string/rules_vaadyavadan1</item>
+    </string-array>
+
+    <array name="event_rule_array">
+        <item>@array/rules_kawadsa_array</item>
+        <item>@array/rules_nrutya_array</item>
+        <item>@array/rules_gaane_taraane_array</item>
+        <item>@array/rules_pathnatya_array</item>
+        <item>@array/rules_vaadvivad_array</item>
+        <item>@array/rules_ekpatri_array</item>
+        <item>@array/rules_kavyamrut_array</item>
+        <item>@array/rules_vaadyavadan_array</item>
+    </array>
+
+
+
+
+
+    <array name="event_tab_names">
+        <item>@string/introduction_tab</item>
+        <item>@string/rules_tab</item>
+        <item>@string/eventhead_tab</item>
+        <item>@string/registration_tab</item>
+    </array>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_theme">Theme</string>
+    <string name="nav_item_events">Events</string>
+    <string name="nav_item_gallery">Gallery</string>
+    <string name="nav_item_sponsors">Sponsors</string>
+    <string name="nav_item_aboutus">About Us</string>
+    <string name="nav_item_developers">Developers</string>
+    <string name="nav_item_rwall">RWall</string>
+    <string name="nav_item_test">RWall</string>
+
+    <string name="fragment_item_rule">Rules</string>
+    <string name="fragment_item_description">Description</string>
+    <string name="fragment_item_prizes">Prizes</string>
+
+
+    <string name="kawadasa_desc">\t\t\tKawadsa, the gem in the crown of Rangawardhan calls for all the theatre loving crowd.
+        If your college has that one Ekankika to hold the audience back on their seats then the stage is all yours.
+        Come and enlight the stage with your electrifying performances. Its time to put the efforts you took with your Director,
+        technicians and the whole team on the display. </string>
+
+    <string name="nrutya_desc">\t\t\tWhat unifies the mind, heart and soul?!\n Surely Dance!
+        In its all forms and grandeur, dance never misses to make us spellbound.
+        Nrutyavishkar,the solo, duet and group dance competition of the Rangwardhan, honours the richness maharashtrian dance forms.
+        Nrutyavishkar is one of the most crowd pulling compettion of Rangawardhan that is personified by grace and grandeur.</string>
+
+    <string name="kavya_desc">\t\t\tEver found yourself lost among the poetries of Kusumagraj?!
+        Or felt enery flow thorugh your body while going through Veer Savarkar\’s stanza?!
+        Well then you certainly get a platform here at Kavyamrut where you can pen down your words,
+        edify them and let the verses flow.</string>
+
+    <string name="gane_desc">\t\t\tSinging is the emotion of the heart.
+        Gane-Tarane provides a strong platform for rising as well as establishing singers by showcasing their talent.
+        The rhythyms and beats of the most enthralling voice is applauded by the audience and honoured by the judges.
+        Let your melodoes singing resonates through the VJTI campus.</string>
+
+    <string name="pathnatya_desc">\t\t\tWith simple costumes and props, with little or no amplification of sounds,
+        with actors depending on theirs natural vocal and physical abilities,
+        Pathnatya, the street play competition have most powerfull mode to spread social messages.
+        Pathnatya that takes place at the heart of VJTI,
+        the Quadrangle has witnessed power driven performances in the past and we look forth for many more.
+        Get your teams ready folks!</string>
+
+    <string name="vadvivad_desc">\t\t\tParticipants are divided into groups and given a single subject and its two sides/faces.
+        Thereafter, both the groups can put forth their points and opinions regarding that subject.
+        The group/individual that succeeds more in convincing his/her points is honored with attractive prizes. </string>
+
+
+    <string name="vadya_desc">Exams have just ended and still competitions everywhere !!!
+        Just think its time for fun where winning isn\'t compulsory but enjoying oneself is necesarry.
+        Rangawardhan here brings you a whole lot of fun events to enjoy with your friends Stay Tuned !!!</string>
+
+    <string name="ekpatri_desc">\t\t\tDo you have whatbit takes to hold out the audience with your power-packed act?!
+        Well then, the stage is set, spot lights are on and red curtains about to pull up, we await for you.
+        Get yourself register to the mono-act competition of Rangawardhan, Ekpatri to display your grand act.</string>
+
+    <string name="rwall_desc">\t\t\tWant to get mesmerized by the Maharashtrian culture and all its art forms ? Well here’s our iconic wall depicting this
+year’s theme "कलोत्सव" by our students, for the students and praised by everyone . Catch the glimpses at this year’s
+Rangawardhan 2015 and get ready to be amazed. Never miss a chance to get yourself clicked with the wall.</string>
+
+    <string-array name="event_introduction">
+        <item>@string/kawadasa_desc</item>
+        <item>@string/nrutya_desc</item>
+        <item>@string/gane_desc</item>
+        <item>@string/pathnatya_desc</item>
+        <item>@string/vadvivad_desc</item>
+        <item>@string/ekpatri_desc</item>
+        <item>@string/kavya_desc</item>
+        <item>@string/vadya_desc</item>
+
+    </string-array>
+
+
+    <string name="home_desc">Rangawardhan is a Marathi cultural society running under \“VJTI social group\” which has enormous impact on cultural atmosphere of VJTI. Rangawardhan is nothing but basically Central platform for all the students which have an artist hidden inside them. 15 years ago, few art loving students and professor came together with the aim of preservation of Marathi culture in college and establish \’Rangawardhan\’ which today has transformed into iconic  cultural fest, popular not only in Mumbai but all over Maharashtra !</string>
+
+    <!--<string name="theme_desc">Every year,  Rangawardhan comes up with a brand new and inactive theme, which has its own significance. This year Rangawardhan has an above mentioned theme. It indicate the role of Rangawardhan as a major Marathi Cultural Event. The tagline for this theme is decided as \"उधळण मराठी कलारंगांची\" and based on this, the T-shirt of Rangawardhan have also printed, stating -\"अवघा रंग एक झाला\". This catchy and attractive theme and tagline have grabbed the attention of all toward the Randawardhan!</string>-->
+    <string name="theme_desc">In a world torn by political\, ethnic and religious conflict\, only art has the power to unify\, inspire\, elevate\, and heal. Art encourages us to view the world in new ways\, as well as to look into ourselves.
+     A world without art would be intellectually and spiritually barren.
+     Our theme \'Kalotsava\' honours the various forms of art. Rangawardhan through its theme appreciate the major contribution of the art to the society. This year\’s extravaganza will highlight the beauty of the art\, especially the one displayed by our Marathi culture.
+</string>
+    <!-- navigation drawer item labels  -->
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_theme</item>
+        <item>@string/nav_item_events</item>
+        <item>@string/nav_item_gallery</item>
+        <item>@string/nav_item_test</item>
+        <item>@string/nav_item_sponsors</item>
+        <item>@string/nav_item_aboutus</item>
+        <item>@string/nav_item_developers</item>
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_theme">Theme</string>
+    <string name="title_events">Events</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_sponsors">Sponsors</string>
+    <string name="title_aboutus">Contact us</string>
+    <string name="title_developer">Developers</string>
+
+
+
+    <array name="ranga_spons">
+        <item>@drawable/pratibha</item>
+        <item>@drawable/ew</item>
+        <item>@drawable/pugmark1</item>
+        <item>@drawable/greatescape</item>
+        <item>@drawable/mata</item>
+        <item>@drawable/saamna1</item>
+        <item>@drawable/lokmat</item>
+        <item>@drawable/sakal</item>
+        <item>@drawable/time</item>
+        <item>@drawable/gate</item>
+        <item>@drawable/faasos</item>
+        <item>@drawable/aircel</item>
+        <item>@drawable/ebay</item>
+        <item>@drawable/ubercabs</item>
+    </array>
+
+    <string-array name="rangawardhan_committe_posts">
+        <item>General Secretary</item>
+        <item>Jt. General Secretary</item>
+        <item>Treasurer</item>
+        <item>Chief Coordinator</item>
+        <item>Events Chief Coordinator</item>
+        <item>Sponsorship Chief Coordinator</item>
+        <item>Publicity Chief Coordinator</item>
+        <item>Public Relations Head</item>
+        <item>Performing Arts Head</item>
+        <item>Fine Arts Head</item>
+        <item>Website Development Team</item>
+        <item>Infrastructure Chief Coordinator</item>
+    </string-array>
+
+
+    <string-array name="sponsor_headers">
+        <item>Title Sponsor</item>
+        <item>Fun Partner</item>
+        <item>Adventure Partner</item>
+        <item>Entertainment Partner</item>
+        <item>Media Partner</item>
+        <item>Education Partner</item>
+        <item>Drink Partner</item>
+        <item>Communication Partner</item>
+        <item>Website Partner</item>
+        <item>Travel Partner</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Event head names and phone number starts from here...................................................-->
+
+    <string name="eventhd_kawadasa_name1">Deepali Mahale</string>
+    <string name="eventhd_kawadasa_name2">Sudarshan Gutte</string>
+    <string name="eventhd_kawadasa_name3">Rohit Munde</string>
+    <string name="eventhd_kawadasa_name4">Roshan Dukale</string>
+    <string name="eventhd_kawadasa_name5">Saurabh Narkhedkar</string>
+    <string-array name="eventhd_kawadasa_name">
+        <item>@string/eventhd_kawadasa_name1</item>
+        <item>@string/eventhd_kawadasa_name2</item>
+        <item>@string/eventhd_kawadasa_name3</item>
+        <item>@string/eventhd_kawadasa_name4</item>
+        <item>@string/eventhd_kawadasa_name5</item>
+    </string-array>
+
+    <string name="eventhd_kawadasa1_no">+919765307029</string>
+    <string name="eventhd_kawadasa2_no">+917208257772</string>
+    <string name="eventhd_kawadasa3_no">+919175073243</string>
+    <string name="eventhd_kawadasa4_no">+919604088406</string>
+    <string name="eventhd_kawadasa5_no">+918793505080</string>
+    <string-array name="eventhd_kawadasa_no">
+        <item>@string/eventhd_kawadasa1_no</item>
+        <item>@string/eventhd_kawadasa2_no</item>
+        <item>@string/eventhd_kawadasa3_no</item>
+        <item>@string/eventhd_kawadasa4_no</item>
+        <item>@string/eventhd_kawadasa5_no</item>
+    </string-array>
+
+
+    <string name="eventhd_pathnatya_name1">Kiran Palhal</string>
+    <string name="eventhd_pathnatya_name2">Siddharth Kavathe</string>
+    <string name="eventhd_pathnatya_name3">Anant Kalamkar</string>
+    <string name="eventhd_pathnatya_name4">Kiran Palhal</string>
+    <string-array name="eventhd_pathnatya_name">
+        <item>@string/eventhd_pathnatya_name1</item>
+        <item>@string/eventhd_pathnatya_name2</item>
+        <item>@string/eventhd_pathnatya_name3</item>
+        <item>@string/eventhd_pathnatya_name4</item>
+    </string-array>
+
+    <string name="eventhd_pathnatya1_no">+917304862521</string>
+    <string name="eventhd_pathnatya2_no">+919923373881</string>
+    <string name="eventhd_pathnatya3_no">+919890565529</string>
+    <string name="eventhd_pathnatya4_no">+917038652345</string>
+
+
+    <string-array name="eventhd_pathnatya_no">
+        <item>@string/eventhd_pathnatya1_no</item>
+        <item>@string/eventhd_pathnatya2_no</item>
+        <item>@string/eventhd_pathnatya3_no</item>
+        <item>@string/eventhd_pathnatya4_no</item>
+    </string-array>
+
+
+    <string name="eventhd_ekpatri_name1">Pratik Munde</string>
+    <string name="eventhd_ekpatri_name2">Ajay Rathod</string>
+    <string name="eventhd_ekpatri_name3">Pavithra Shet</string>
+    <string-array name="eventhd_ekpatri_name">
+        <item>@string/eventhd_ekpatri_name1</item>
+        <item>@string/eventhd_ekpatri_name2</item>
+        <item>@string/eventhd_ekpatri_name3</item>
+    </string-array>
+
+    <string name="eventhd_ekpatri_no1">+917875166280</string>
+    <string name="eventhd_ekpatri_no2">+919403672080</string>
+    <string name="eventhd_ekpatri_no3">+918424965985</string>
+    <string-array name="eventhd_ekpatri_no">
+        <item>@string/eventhd_ekpatri_no1</item>
+        <item>@string/eventhd_ekpatri_no2</item>
+        <item>@string/eventhd_ekpatri_no3</item>
+    </string-array>
+
+
+
+
+    <string name="eventhd_kavyamrut_name1">Pranay Sonawne</string>
+    <string name="eventhd_kavyamrut_name2">Mahendra Nannaware</string>
+    <string name="eventhd_kavyamrut_name3">Vaishnavi Sakhre</string>
+
+    <string-array name="eventhd_kavyamrut_name">
+        <item>@string/eventhd_kavyamrut_name1</item>
+        <item>@string/eventhd_kavyamrut_name2</item>
+        <item>@string/eventhd_kavyamrut_name3</item>
+    </string-array>
+
+    <string name="eventhd_kavyamrut_no1">+918484033627</string>
+    <string name="eventhd_kavyamrut_no2">+918551027739</string>
+    <string name="eventhd_kavyamrut_no3">+919527356470</string>
+
+    <string-array name="eventhd_kavyamrut_no">
+        <item>@string/eventhd_kavyamrut_no1</item>
+        <item>@string/eventhd_kavyamrut_no2</item>
+        <item>@string/eventhd_kavyamrut_no3</item>
+    </string-array>
+
+    <string name="eventhd_nritya_name1">Mayur Shinde</string>
+    <string name="eventhd_nritya_name2">Rutuja Kagne</string>
+    <string name="eventhd_nritya_name3">Snehal Katkar</string>
+    <string-array name="eventhd_nritya_name">
+        <item>@string/eventhd_nritya_name1</item>
+        <item>@string/eventhd_nritya_name2</item>
+        <item>@string/eventhd_nritya_name3</item>
+    </string-array>
+
+    <string name="eventhd_nritya_no1">+917028612797</string>
+    <string name="eventhd_nritya_no2">+919922329475</string>
+    <string name="eventhd_nritya_no3">+919833974325</string>
+    <string-array name="eventhd_nritya_no">
+        <item>@string/eventhd_nritya_no1</item>
+        <item>@string/eventhd_nritya_no2</item>
+        <item>@string/eventhd_nritya_no3</item>
+    </string-array>
+
+    <string name="eventhd_ganetaraane_name1">Ayushi Khairkar</string>
+    <string name="eventhd_ganetaraane_name2">Milind Savate</string>
+    <string name="eventhd_ganetaraane_name3">Vikas Tiwari</string>
+    <string-array name="eventhd_ganetataane_name">
+        <item>@string/eventhd_ganetaraane_name1</item>
+        <item>@string/eventhd_ganetaraane_name2</item>
+        <item>@string/eventhd_ganetaraane_name3</item>
+    </string-array>
+
+    <string name="eventhd_ganetaraane_no1">+919767969691</string>
+    <string name="eventhd_ganetaraane_no2">+918793603574</string>
+    <string name="eventhd_ganetaraane_no3">+919987418105</string>
+    <string-array name="eventhd_ganetaraane_no">
+        <item>@string/eventhd_ganetaraane_no1</item>
+        <item>@string/eventhd_ganetaraane_no2</item>
+        <item>@string/eventhd_ganetaraane_no3</item>
+    </string-array>
+
+    <string name="eventhd_funevent_name1">Shivam Wankhede</string>
+    <string name="eventhd_funevent_name2">Mangesh Babde</string>
+    <string name="eventhd_funevent_name3">Ritish Yadav</string>
+    <string name="eventhd_funevent_name4">Gunwant Shelar</string>
+    <string-array name="eventhd_funevent_name">
+        <item>@string/eventhd_funevent_name1</item>
+        <item>@string/eventhd_funevent_name2</item>
+        <item>@string/eventhd_funevent_name3</item>
+        <item>@string/eventhd_funevent_name4</item>
+    </string-array>
+
+    <string name="eventhd_funevent_no1">+918856956734</string>
+    <string name="eventhd_funevent_no2">+919022402519</string>
+    <string name="eventhd_funevent_no3">+919619376340</string>
+    <string name="eventhd_funevent_no4">+919819077147</string>
+    <string-array name="eventhd_funevent_no">
+        <item>@string/eventhd_funevent_no1</item>
+        <item>@string/eventhd_funevent_no2</item>
+        <item>@string/eventhd_funevent_no3</item>
+        <item>@string/eventhd_funevent_no4</item>
+    </string-array>
+
+    <string name="eventhd_rwall_name1">Ankita Kademwar</string>
+    <string name="eventhd_rwall_name2">Priya Birge</string>
+    <string name="eventhd_rwall_name3">Yogesh Pantoji</string>
+    <string-array name="eventhd_rwall_name">
+        <item>@string/eventhd_funevent_name1</item>
+        <item>@string/eventhd_funevent_name2</item>
+        <item>@string/eventhd_funevent_name3</item>
+    </string-array>
+
+    <string name="eventhd_rwall_no1">+917710895118</string>
+    <string name="eventhd_rwall_no2">+9177090974400</string>
+    <string name="eventhd_rwall_no3">+918793152342</string>
+    <string-array name="eventhd_rwall_no">
+        <item>@string/eventhd_rwall_no1</item>
+        <item>@string/eventhd_rwall_no2</item>
+        <item>@string/eventhd_rwall_no3</item>
+    </string-array>
+
+    <string name="eventhd_vaadvivad_name1">Abhilash Parkhad</string>
+    <string name="eventhd_vaadvivad_name2">Ajay Karwar</string>
+    <string name="eventhd_vaadvivad_name3">Rohit Lad</string>
+    <string-array name="eventhd_vadvivaad_name">
+        <item>@string/eventhd_vaadvivad_name1</item>
+        <item>@string/eventhd_vaadvivad_name2</item>
+        <item>@string/eventhd_vaadvivad_name3</item>
+    </string-array>
+
+    <string name="eventhd_vaadvivad_no1">+917666630693</string>
+    <string name="eventhd_vaadvivad_no2">+917718922219</string>
+    <string name="eventhd_vaadvivad_no3">+917718984197</string>
+
+    <string-array name="eventhd_vadvivaad_no">
+        <item>@string/eventhd_vaadvivad_no1</item>
+        <item>@string/eventhd_vaadvivad_no2</item>
+        <item>@string/eventhd_vaadvivad_no3</item>
+    </string-array>
+
+
+
+    <array name="eventhd_names_array">
+        <item>@array/eventhd_kawadasa_name</item>
+        <item>@array/eventhd_nritya_name</item>
+        <item>@array/eventhd_ganetataane_name</item>
+        <item>@array/eventhd_pathnatya_name</item>
+        <item>@array/eventhd_vadvivaad_name</item>
+        <item>@array/eventhd_ekpatri_name</item>
+        <item>@array/eventhd_kavyamrut_name</item>
+        <item>@array/eventhd_funevent_name</item>
+
+    </array>
+
+    <array name="eventhd_no_array">
+        <item>@array/eventhd_kawadasa_no</item>
+        <item>@array/eventhd_nritya_no</item>
+        <item>@array/eventhd_ganetaraane_no</item>
+        <item>@array/eventhd_pathnatya_no</item>
+        <item>@array/eventhd_vadvivaad_no</item>
+        <item>@array/eventhd_ekpatri_no</item>
+        <item>@array/eventhd_kavyamrut_no</item>
+        <item>@array/eventhd_funevent_no</item>
+
+    </array>
+
+    <!--Images for RWALL-->
+    <array name="rwall_images_array">
+        <item>@drawable/rwall1</item>
+        <item>@drawable/rwall2</item>
+        <item>@drawable/rwall3</item>
+        <item>@drawable/rwall4</item>
+        <item>@drawable/rwall5</item>
+    </array>
+
+    <string name="FullScreenImageContainerKey">1</string>
+
+
+</resources>

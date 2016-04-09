@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akashj.rangawardhan10" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+
+        <activity
+            android:name="activity.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="activity.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="com.example.akashj.rangawardhan10.LOGIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name="activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.akashj.rangawardhan10.MAINACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
+
+        <activity android:name="activity.FullScreenViewActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="activity.MainTab"
+           android:theme="@android:style/Theme.Holo"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="activity.RWallPagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="activity.NewGalleryFragment"
+            android:screenOrientation="portrait"/>
+
+    </application>
+</manifest>
